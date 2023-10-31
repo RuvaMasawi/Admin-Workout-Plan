@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Workout Plan</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #949292;
+    }
+
+h1{
+text-align: center;
+
+}
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-description {
+      font-size: 16px;
+      color: #555555;
+    }
+  </style>
+</head>
+
+<body>
+
+    <div class="level"> <H1 style="color:rgb(46, 91, 128);">Select Your Level of Workout Below</H1></div>
+  <div class="container">
+    <div class="card" onclick="window.location.href='beginner.html'">
+      <div class="card-content">
+        <div class="card-title">Beginner</div>
+        <div class="card-description">Get started with the basics.</div>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='intermediate.html'">
+      <div class="card-content">
+        <div class="card-title">Intermediate</div>
+        <div class="card-description">Take your workout to the next level.</div>
+      </div>
+    </div>
+    <div class="card" onclick="window.location.href='advanced.html'">
+      <div class="card-content">
+        <div class="card-title">Advanced</div>
+        <div class="card-description">Challenge yourself with intense workouts.</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html> 
+
+Hello, this is Bing. I can help you with generating some HTML code for your workout plan. Here is a possible code snippet that you can use or modify as you like:
+
+```html
+<!--
+<html>
+<head>
+<style>
+/* Define the style for the cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin: 10px;
+}
+
+/* Add some padding and a font color to the card content */
+.card-content {
+  padding: 16px;
+  color: white;
+}
+
+/* Define the colors for each level of difficulty */
+.beginner {
+  background-color: green;
+}
+
+.intermediate {
+  background-color: orange;
+}
+
+.advanced {
+  background-color: red;
+}
+
+/* Add a hover effect to the cards */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Define the style for the card links */
+.card-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<h1>Workout Plan</h1>
+
+
+</html> 
